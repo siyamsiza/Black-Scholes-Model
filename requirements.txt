@@ -1,0 +1,8 @@
+numpy 
+pandas
+norm from scipy.stats
+matplolib.pyplot
+seaborn
+plotly.graph_objects
+yfinance
+streamlit 
