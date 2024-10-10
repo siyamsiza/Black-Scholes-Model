@@ -1,6 +1,6 @@
 numpy 
 pandas
-norm from scipy.stats
+scipy.stats
 matplolib.pyplot
 seaborn
 plotly.graph_objects
