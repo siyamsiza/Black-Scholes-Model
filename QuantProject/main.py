@@ -62,5 +62,9 @@ st.header("Implied Volatility")
 market_price = st.number_input("Enter Market Price of Option", value=10.0)
 
 if st.button("Calculate Implied Volatility"):
-    iv = implied_volatility(current_price, strike_price, time_to_maturity, risk_free_rate, market_price, option_type)
-    st.write(f"**Implied Volatility:** {iv:.4f}")
+    try:
+       iv = implied_volatility(current_price, strike_price, time_to_maturity, risk_free_rate, market_price, option_type)
+       st.write(f"**Implied Volatility:** {iv:.4f}")
+    except Exception as e:
+       st.write("Error occurred calculating implied volatility.")
+
