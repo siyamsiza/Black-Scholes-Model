@@ -11,7 +11,6 @@ from black_scholes_model import black_scholes, black_scholes_greeks
 from monte_carlo_pricing import monte_carlo_option_pricing
 from implied_volatility import implied_volatility
 
-# Streamlit app code starts here...
 
 # Title of the app
 st.title("Black-Scholes Option Pricing Dashboard")
