@@ -1,7 +1,7 @@
 numpy 
 pandas
 scipy
-matplolib.pyplot
+matplotlib.pyplot
 seaborn
 plotly.graph_objects
 yfinance
